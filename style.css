@@ -458,6 +458,7 @@ h1 {
 
 .events-container {
     position: relative;
+    width: min(100% - 40px, 1040px);
     min-height: 585px;
 }
 
@@ -468,7 +469,7 @@ h1 {
     grid-template-columns: repeat(3, 1fr);
     gap: 16px;
     width: 814px;
-    margin-left: 60px;
+    margin-left: 88px;
 }
 
 .event-card {
@@ -559,8 +560,8 @@ h1 {
 .events-info {
     position: absolute;
     z-index: 1;
-    top: 70px;
-    right: 126px;
+    top: 76px;
+    right: 88px;
     width: 330px;
 }
 
@@ -589,19 +590,19 @@ h1 {
 
 .events-egg {
     left: 24px;
-    top: 153px;
+    top: 158px;
     width: 111px;
 }
 
 .events-burrito {
-    right: 60px;
-    top: 245px;
+    right: 34px;
+    top: 238px;
     width: 120px;
 }
 
 .events-coffee {
-    left: 30px;
-    bottom: 12px;
+    left: 42px;
+    bottom: 14px;
     width: 92px;
 }
 
