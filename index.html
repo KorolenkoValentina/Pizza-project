@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizzashop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="hero">
+        <div class="container">
+            <header class="header">
+                <a href="#" aria-label="Pizzashop">
+                    <img class="logo" src="img/pizzashop.png" alt="pizzashop">
+                </a>
+
+                <nav class="nav" aria-label="Main menu">
+                    <a class="active" href="#">Home</a>
+                    <a href="#menu">Menu</a>
+                    <a href="#">Events</a>
+                    <a href="#about">About us</a>
+                </nav>
+
+                <div class="actions">
+                    <button class="login" type="button">Log in</button>
+                    <a class="cart-btn" href="#" aria-label="Cart">
+                        <img src="img/cart.png" alt="">
+                    </a>
+                </div>
+            </header>
+
+            <div class="hero-content">
+                <div class="copy">
+                    <h1>
+                        The Fastest<br>
+                        Pizza
+                        <img class="bolt" src="img/Lightning.png" alt="">
+                        Delivery
+                    </h1>
+
+                    <p class="desc">
+                        We will deliver juicy pizza for your family in 30 minutes,
+                        if the courier is late - <strong>pizza is free!</strong>
+                    </p>
+
+                    <p class="label">Cooking process:</p>
+
+                    <div class="video-card">
+                        <img src="img/video.png.png" alt="Cooking process preview">
+                        <span class="play" aria-hidden="true"></span>
+                    </div>
+
+                    <div class="cta" aria-label="Order links">
+                        <a class="primary" href="#">To order</a>
+                        <a href="#">Pizza-Menu</a>
+                    </div>
+                </div>
+
+                <div class="visual" aria-hidden="true">
+                    <img class="banner" src="img/baner.png" alt="">
+                    <img class="pizza-slice" src="img/pizza.png" alt="">
+                    <img class="fries" src="img/fries.png" alt="">
+                    <img class="dash-top" src="img/vector2.png" alt="">
+                    <img class="dash-bottom" src="img/vector.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="menu" id="menu">
+        <div class="container">
+            <h2 class="section-title">Menu</h2>
+
+            <div class="menu-tabs">
+                <button class="menu-tab active" type="button">Show All</button>
+                <button class="menu-tab" type="button">Meat</button>
+                <button class="menu-tab" type="button">Vegetarian</button>
+                <button class="menu-tab" type="button">Sea products</button>
+                <button class="menu-tab" type="button">Mushroom</button>
+            </div>
+
+            <div class="pizza-grid">
+                <article class="pizza-card">
+                    <img src="img/pizza/italian.png" alt="Italian pizza">
+                    <h3>Italian</h3>
+                    <p>Filling: onion, potato, tomato, mushrooms, cheese, olives, meat...</p>
+                    <div class="sizes">
+                        <span>22</span>
+                        <span class="active">28</span>
+                        <span>33</span>
+                    </div>
+                    <button class="ingredients" type="button">+ Ingredients</button>
+                    <div class="card-bottom">
+                        <strong>8,35<sup>$</sup></strong>
+                        <div class="quantity">
+                            <button type="button">-</button>
+                            <span>1</span>
+                            <button class="plus" type="button">+</button>
+                        </div>
+                    </div>
+                    <button class="order-btn" type="button">Order Now</button>
+                </article>
+
+                <article class="pizza-card">
+                    <img src="img/pizza/venecia.png" alt="Venecia pizza">
+                    <h3>Venecia</h3>
+                    <p>Filling: pepperoni, ham, cheese, mushrooms, tomato sauce, spices...</p>
+                    <div class="sizes">
+                        <span>22</span>
+                        <span class="active">28</span>
+                        <span>33</span>
+                    </div>
+                    <button class="ingredients" type="button">+ Ingredients</button>
+                    <div class="card-bottom">
+                        <strong>7,35<sup>$</sup></strong>
+                        <div class="quantity">
+                            <button type="button">-</button>
+                            <span>1</span>
+                            <button class="plus" type="button">+</button>
+                        </div>
+                    </div>
+                    <button class="order-btn" type="button">Order Now</button>
+                </article>
+
+                <article class="pizza-card">
+                    <img src="img/pizza/meat.png" alt="Meat pizza">
+                    <h3>Meat</h3>
+                    <p>Filling: mozzarella, cheddar, parmesan, creamy sauce and herbs...</p>
+                    <div class="sizes">
+                        <span>22</span>
+                        <span class="active">28</span>
+                        <span>33</span>
+                    </div>
+                    <button class="ingredients" type="button">+ Ingredients</button>
+                    <div class="card-bottom">
+                        <strong>9,35<sup>$</sup></strong>
+                        <div class="quantity">
+                            <button type="button">-</button>
+                            <span>1</span>
+                            <button class="plus" type="button">+</button>
+                        </div>
+                    </div>
+                    <button class="order-btn" type="button">Order Now</button>
+                </article>
+
+                <article class="pizza-card">
+                    <img src="img/pizza/cheese.png" alt="Cheese pizza">
+                    <h3>Cheese</h3>
+                    <p>Filling: mushrooms, cheese, tomato sauce, onion and fresh greens...</p>
+                    <div class="sizes">
+                        <span>22</span>
+                        <span class="active">28</span>
+                        <span>33</span>
+                    </div>
+                    <button class="ingredients" type="button">+ Ingredients</button>
+                    <div class="card-bottom">
+                        <strong>8,35<sup>$</sup></strong>
+                        <div class="quantity">
+                            <button type="button">-</button>
+                            <span>1</span>
+                            <button class="plus" type="button">+</button>
+                        </div>
+                    </div>
+                    <button class="order-btn" type="button">Order Now</button>
+                </article>
+            </div>
+
+            <div class="popular-banner">
+                <h2>Most Popular Pizza</h2>
+            </div>
+
+            <div class="pizza-grid pizza-grid-second">
+                <article class="pizza-card">
+                    <img src="img/pizza/argentina.png" alt="Argentina pizza">
+                    <h3>Argentina</h3>
+                    <p>Filling: onion, potato, tomato, mushrooms, cheese, olives, meat...</p>
+                    <div class="sizes">
+                        <span>22</span>
+                        <span class="active">28</span>
+                        <span>33</span>
+                    </div>
+                    <button class="ingredients" type="button">+ Ingredients</button>
+                    <div class="card-bottom">
+                        <strong>7,35<sup>$</sup></strong>
+                        <div class="quantity">
+                            <button type="button">-</button>
+                            <span>1</span>
+                            <button class="plus" type="button">+</button>
+                        </div>
+                    </div>
+                    <button class="order-btn" type="button">Order Now</button>
+                </article>
+
+                <article class="pizza-card">
+                    <img src="img/pizza/gribnaya.png" alt="Gribnaya pizza">
+                    <h3>Gribnaya</h3>
+                    <p>Filling: onion, potato, tomato, mushrooms, cheese, olives, meat...</p>
+                    <div class="sizes">
+                        <span>22</span>
+                        <span class="active">28</span>
+                        <span>33</span>
+                    </div>
+                    <button class="ingredients" type="button">+ Ingredients</button>
+                    <div class="card-bottom">
+                        <strong>6,35<sup>$</sup></strong>
+                        <div class="quantity">
+                            <button type="button">-</button>
+                            <span>1</span>
+                            <button class="plus" type="button">+</button>
+                        </div>
+                    </div>
+                    <button class="order-btn" type="button">Order Now</button>
+                </article>
+
+                <article class="pizza-card">
+                    <img src="img/pizza/tomato.png" alt="Tomato pizza">
+                    <h3>Tomato</h3>
+                    <p>Filling: onion, potato, tomato, mushrooms, cheese, olives, meat...</p>
+                    <div class="sizes">
+                        <span>22</span>
+                        <span class="active">28</span>
+                        <span>33</span>
+                    </div>
+                    <button class="ingredients" type="button">+ Ingredients</button>
+                    <div class="card-bottom">
+                        <strong>7,35<sup>$</sup></strong>
+                        <div class="quantity">
+                            <button type="button">-</button>
+                            <span>1</span>
+                            <button class="plus" type="button">+</button>
+                        </div>
+                    </div>
+                    <button class="order-btn" type="button">Order Now</button>
+                </article>
+
+                <article class="pizza-card">
+                    <img src="img/pizza/italian2.png" alt="Italian x2 pizza">
+                    <h3>Italian x2</h3>
+                    <p>Filling: onion, potato, tomato, mushrooms, cheese, olives, meat...</p>
+                    <div class="sizes">
+                        <span>22</span>
+                        <span class="active">28</span>
+                        <span>33</span>
+                    </div>
+                    <button class="ingredients" type="button">+ Ingredients</button>
+                    <div class="card-bottom">
+                        <strong>8,35<sup>$</sup></strong>
+                        <div class="quantity">
+                            <button type="button">-</button>
+                            <span>1</span>
+                            <button class="plus" type="button">+</button>
+                        </div>
+                    </div>
+                    <button class="order-btn" type="button">Order Now</button>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="container about-container">
+            <div class="about-copy">
+                <h2>About us</h2>
+
+                <p>
+                    In just a couple of years, we have opened 6 outlets in different
+                    cities: Kazan, Chelyabinsk, Ufa, Samara, Izhevsk, and in the
+                    future we plan to develop the network in other major cities of Russia.
+                </p>
+
+                <img class="about-pizzas" src="img/pizzaGroup.png" alt="Pizza assortment">
+
+                <p>
+                    The kitchen of each point is at least: 400-500 sq. m. meters,
+                    hundreds of employees, smoothly performing work in order to receive /
+                    prepare / form / deliver customer orders on time.
+                </p>
+            </div>
+
+            <div class="about-visual" aria-hidden="true">
+                <img class="about-banner" src="img/baner2.png" alt="">
+                <img class="about-slice" src="img/pizza.png" alt="">
+                <img class="about-fries" src="img/fries.png" alt="">
+                <img class="about-dash" src="img/vector2.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-brand">
+                <a href="#" aria-label="Pizzashop">
+                    <img class="footer-logo" src="img/pizzashop.png" alt="pizzashop">
+                </a>
+                <a class="footer-phone" href="tel:+79373335533">+7 (937) 333-55-33</a>
+            </div>
+
+            <div class="footer-column">
+                <h3>Home</h3>
+                <a href="#">To Order</a>
+                <a href="#about">About us</a>
+                <a href="#">Events</a>
+                <a href="#menu">Menu</a>
+            </div>
+
+            <div class="footer-column">
+                <h3>Events</h3>
+                <a href="#">3 Pizza 1 Free Coffee</a>
+                <a href="#">2 Pizza for 1 Price</a>
+                <a href="#">Kitchen Tour</a>
+            </div>
+
+            <div class="footer-column">
+                <h3>Menu</h3>
+                <a href="#menu">Show All</a>
+                <a href="#menu">Seaproducts</a>
+                <a href="#menu">Vegan</a>
+                <a href="#menu">Meat</a>
+            </div>
+
+            <div class="footer-column">
+                <h3>About Us</h3>
+                <a href="#about">Our History</a>
+                <a href="#about">Why We?</a>
+            </div>
+
+            <img class="footer-social" src="img/social.png" alt="Instagram, Twitter and Facebook">
+        </div>
+    </footer>
+</body>
+</html>
