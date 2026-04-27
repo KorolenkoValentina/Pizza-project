@@ -652,8 +652,9 @@ h1 {
 }
 
 .footer {
-    padding: 38px 0;
-    background: #1b1b1b;
+    padding: 0;
+    background:
+        linear-gradient(90deg, #170a00 0%, #170600 31%, #0f0700 69%, #170a00 100%);
 }
 
 .footer-container {
@@ -664,9 +665,6 @@ h1 {
     align-items: start;
     min-height: 350px;
     padding: 58px 102px 52px;
-    background:
-        radial-gradient(circle at 62% 28%, rgba(255, 94, 42, 0.1), transparent 32%),
-        linear-gradient(90deg, #1e0c00 0%, #220900 100%);
 }
 
 .footer-brand {
@@ -919,10 +917,6 @@ h1 {
 
     .about-dash {
         display: none;
-    }
-
-    .footer {
-        padding: 24px 0;
     }
 
     .footer-container {
