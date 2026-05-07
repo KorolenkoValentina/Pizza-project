@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact us | Pizzashop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="contact-page">
+        <div class="container">
+            <header class="header contact-header">
+                <a href="index.html" aria-label="Pizzashop">
+                    <img class="logo" src="img/pizzashop.png" alt="pizzashop">
+                </a>
+
+                <nav class="nav" aria-label="Main menu">
+                    <a href="index.html">Home</a>
+                    <a href="index.html#menu">Menu</a>
+                    <a href="index.html#events">Events</a>
+                    <a href="index.html#about">About us</a>
+                </nav>
+
+                <div class="actions">
+                    <a class="contact-back" href="index.html">Back</a>
+                </div>
+            </header>
+
+            <div class="contact-layout">
+                <div class="contact-info">
+                    <h1>Contact us</h1>
+                    <p>
+                        Write to us or visit our pizzeria. We will answer your message
+                        and help with your order.
+                    </p>
+
+                    <div class="contact-details">
+                        <div>
+                            <span>Address</span>
+                            <strong>22 Khreshchatyk Street, Kyiv, Ukraine</strong>
+                        </div>
+                        <div>
+                            <span>Phone</span>
+                            <a href="tel:+380673335533">+38 (067) 333-55-33</a>
+                        </div>
+                        <div>
+                            <span>Email</span>
+                            <a href="mailto:hello@pizzashop.com">hello@pizzashop.com</a>
+                        </div>
+                        <div>
+                            <span>Working hours</span>
+                            <strong>Mon-Sun: 10:00 - 22:00</strong>
+                        </div>
+                    </div>
+                </div>
+
+                <form class="feedback-form">
+                    <h2>Feedback</h2>
+                    <label>
+                        Name
+                        <input type="text" name="name" placeholder="Your name" required>
+                    </label>
+                    <label>
+                        Email
+                        <input type="email" name="email" placeholder="email@example.com" required>
+                    </label>
+                    <label>
+                        Message
+                        <textarea name="message" placeholder="Your message" required></textarea>
+                    </label>
+                    <button class="submit-btn" type="submit">Send message</button>
+                </form>
+            </div>
+
+            <div class="contact-map">
+                <iframe
+                    title="Pizzashop map"
+                    src="https://www.google.com/maps?q=Khreshchatyk%2022%20Kyiv%20Ukraine&output=embed"
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-brand">
+                <a href="index.html" aria-label="Pizzashop">
+                    <img class="footer-logo" src="img/pizzashop.png" alt="pizzashop">
+                </a>
+                <a class="footer-phone" href="tel:+380673335533">+38 (067) 333-55-33</a>
+            </div>
+
+            <div class="footer-column">
+                <h3>Home</h3>
+                <a href="index.html">To Order</a>
+                <a href="index.html#about">About us</a>
+                <a href="index.html#events">Events</a>
+                <a href="index.html#menu">Menu</a>
+            </div>
+
+            <div class="footer-column">
+                <h3>Events</h3>
+                <a href="index.html#events">3 Pizza 1 Free Coffee</a>
+                <a href="index.html#events">2 Pizza for 1 Price</a>
+                <a href="index.html#events">Kitchen Tour</a>
+            </div>
+
+            <div class="footer-column">
+                <h3>Menu</h3>
+                <a href="index.html#menu">Show All</a>
+                <a href="index.html#menu">Seaproducts</a>
+                <a href="index.html#menu">Vegan</a>
+                <a href="index.html#menu">Meat</a>
+            </div>
+
+            <div class="footer-column">
+                <h3>About Us</h3>
+                <a href="index.html#about">Our History</a>
+                <a href="index.html#about">Why We?</a>
+                <a href="contact.html">Contact us</a>
+            </div>
+
+            <img class="footer-social" src="img/social.png" alt="Instagram, Twitter and Facebook">
+        </div>
+    </footer>
+
+    <script>
+        const feedbackForm = document.querySelector(".feedback-form");
+
+        feedbackForm.addEventListener("submit", (event) => {
+            event.preventDefault();
+            feedbackForm.reset();
+        });
+    </script>
+</body>
+</html>
